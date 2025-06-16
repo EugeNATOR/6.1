@@ -99,5 +99,15 @@ namespace пр_6._1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap qU5MbfPyWvUGv2Dxi_TpN {
+            get {
+                object obj = ResourceManager.GetObject("qU5MbfPyWvUGv2Dxi_TpN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

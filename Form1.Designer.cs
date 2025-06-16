@@ -51,7 +51,8 @@
             // dateTimePicker
             // 
             this.dateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.HotTrack;
+            this.dateTimePicker.CalendarForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.dateTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.ControlDark;
             this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateTimePicker.Location = new System.Drawing.Point(207, 143);
             this.dateTimePicker.Name = "dateTimePicker";
@@ -61,8 +62,9 @@
             // SingUp
             // 
             this.SingUp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SingUp.BackColor = System.Drawing.Color.OliveDrab;
+            this.SingUp.BackColor = System.Drawing.Color.Gray;
             this.SingUp.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SingUp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.SingUp.Location = new System.Drawing.Point(572, 432);
             this.SingUp.Name = "SingUp";
             this.SingUp.Size = new System.Drawing.Size(210, 51);
@@ -74,7 +76,7 @@
             // comboBoxHorses
             // 
             this.comboBoxHorses.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBoxHorses.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.comboBoxHorses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.comboBoxHorses.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxHorses.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBoxHorses.FormattingEnabled = true;
@@ -86,7 +88,7 @@
             // comboBoxTime
             // 
             this.comboBoxTime.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBoxTime.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.comboBoxTime.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.comboBoxTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxTime.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBoxTime.FormattingEnabled = true;
@@ -101,7 +103,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.ForeColor = System.Drawing.Color.Goldenrod;
             this.label1.Location = new System.Drawing.Point(12, 143);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(189, 31);
@@ -114,7 +116,7 @@
             this.timeBooking.AutoSize = true;
             this.timeBooking.BackColor = System.Drawing.Color.Transparent;
             this.timeBooking.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.timeBooking.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.timeBooking.ForeColor = System.Drawing.Color.Goldenrod;
             this.timeBooking.Location = new System.Drawing.Point(12, 238);
             this.timeBooking.Name = "timeBooking";
             this.timeBooking.Size = new System.Drawing.Size(278, 31);
@@ -127,7 +129,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label3.ForeColor = System.Drawing.Color.Goldenrod;
             this.label3.Location = new System.Drawing.Point(12, 186);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(230, 31);
@@ -137,8 +139,9 @@
             // buttonCancel
             // 
             this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonCancel.BackColor = System.Drawing.Color.IndianRed;
+            this.buttonCancel.BackColor = System.Drawing.Color.Gray;
             this.buttonCancel.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.buttonCancel.Location = new System.Drawing.Point(9, 432);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(210, 51);
@@ -217,7 +220,7 @@
             this.nameProgramm.AutoSize = true;
             this.nameProgramm.BackColor = System.Drawing.Color.Transparent;
             this.nameProgramm.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nameProgramm.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.nameProgramm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.nameProgramm.Location = new System.Drawing.Point(213, 36);
             this.nameProgramm.Name = "nameProgramm";
             this.nameProgramm.Size = new System.Drawing.Size(373, 31);
@@ -228,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::пр_6._1.Properties.Resources._1bd6ad40aa8f3e2d4119f659752eed8d;
+            this.BackgroundImage = global::пр_6._1.Properties.Resources.qU5MbfPyWvUGv2Dxi_TpN;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(804, 512);
             this.Controls.Add(this.nameProgramm);
