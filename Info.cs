@@ -27,5 +27,10 @@ namespace пр_6._1
             linkLabel1.LinkVisited = true;
             System.Diagnostics.Process.Start("https://vk.com/eugene2255");
         }
+
+        private void buttonClose_Click_1(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

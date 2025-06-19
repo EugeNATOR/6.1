@@ -49,6 +49,7 @@
             this.buttonClose.TabIndex = 15;
             this.buttonClose.Text = "Выйти";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click_1);
             // 
             // linkLabel1
             // 

@@ -12,7 +12,7 @@ namespace пр_6._1
 {
     public partial class Form1 : Form
     {
-        List<string> doctors = new List<string> { "Мустанг", "КоньЧай","ДжерсиКонь","Черная Мамба","Тинкер", "Русская Торпеда", "Королевский Кобыл" };
+        List<string> horses = new List<string> { "Мустанг", "КоньЮктевит","ДжерсиКонь","Черная Мамба","Тинкер", "Русская Торпеда", "Королевский Кобыл" };
         List<string> timesOfDay = new List<string> {"12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00"};
         public Form1()
         {
@@ -47,9 +47,9 @@ namespace пр_6._1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            foreach (string doctor in doctors)
+            foreach (string horse in horses)
             {
-                comboBoxHorses.Items.Add((string)doctor);
+                comboBoxHorses.Items.Add((string)horse);
             }
             foreach(string timeOfDay in timesOfDay)
             {
