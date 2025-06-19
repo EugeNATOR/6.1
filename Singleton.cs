@@ -26,7 +26,11 @@ namespace пр_6._1
             {
                 instance = new Singleton(titleOfHorses, date, times);
             }
-            return instance;
+            else
+            {
+                MessageBox.Show("Лошадь уже ждет! \nСинглтон не даст тебе второй раз записаться (гы)", "Одиночка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+                return instance;
         }
         void GetInfo() 
         {
